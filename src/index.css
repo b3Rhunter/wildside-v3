@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: monospace;
+background: #F7F7F8;
+
+}
+
+nav div {
+  z-index: 999;
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+.desktop,
+.tablet,
+.mobile {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.desktop {
+  color: #0070f3;
+}
+
+.tablet {
+  color: #e06829;
+}
+
+.mobile {
+  color: #f13d91;
+}
+
+.mainImg {
+position: fixed;
+width: 650px;
+height: 650px;
+right: -14px;
+top: -30px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.logo {
+position: fixed;
+width: 220px;
+height: 104px;
+left: 26px;
+bottom: 26px;
+mix-blend-mode: multiply;
+}
+
+.appointments {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  left: 26px;
+  bottom: 150px;
+  background: #F7F7F8;
+  box-shadow: -4px 4px 10px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  z-index: 999px;
+}
+
+.shopping {
+position: fixed;
+width: 50px;
+height: 50px;
+left: 26px;
+bottom: 220px;
+background: #F7F7F8;
+box-shadow: -4px 4px 10px 3px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+z-index: 999px;
+}
+
+.contact {
+position: fixed;
+width: 50px;
+height: 50px;
+left: 26px;
+bottom: 290px;
+background: #F7F7F8;
+box-shadow: -4px 4px 10px 3px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+z-index: 999px;
+}
